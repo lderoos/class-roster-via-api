@@ -1,73 +1,35 @@
-
-/*.gallery {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(50px, auto);
-  }
-  
-  .gallery figure {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    position: relative;
-  } 
-
-  .gallery img {
-    display: block;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
-  
-
-  
-  .gallery figcaption {
-    font-size: 1.5em;
-    color: white;
-    background: rgba(0, 0, 0, 0.46);
-    
-    position: absolute;
-    /*bottom: 0; 
-    left: 0;
-    width: 100%;
-  } */
-  
-  @import url('satoshi.css');
+@import url('satoshi.css');
 
   body{
-    background-color: #dedede;
+    background-color: #ffced8;
   }
+
   .gallery{
     display: grid;
-    grid-gap: 10px;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(50px, auto);
   }
 
   .gallery figure{
-    width: 100%;
-    margin: 10px;
-    border: 1px solid #777;
-    padding: 10px;
-    box-sizing: border-box;
     background-color: #fff;
-    position: relative;
-
-
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+  padding: 20px;
   }
 
  .gallery img {
     display: flex;
     object-fit: cover;
-   width: 300px;
-   height: 400px;
+width: 100%;
+height: 300px;
   }
 
 .gallery figcaption{
-    font-family: 'Satoshi-Bold';
+    font-family: 'Satoshi-Black';
+    color: rgb(14, 0, 75);
     text-align: center;
     font-size: 1.5em;
-    padding: 10px 5px;
     position: relative;
+    padding: 10px;
+
   }
